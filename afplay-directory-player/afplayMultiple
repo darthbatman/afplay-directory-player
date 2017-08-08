@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for song in *.mp3
+do
+	afplay "$song"
+done
